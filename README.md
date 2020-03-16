@@ -1,4 +1,4 @@
-# AeroLogic Garden Controller μC
+# AeroLogic Garden μC
 
 ESP32s microcontroller code for high pressure aeroponics system [telnet control]
 
