@@ -18,7 +18,7 @@ Mister spray times/intervals stay synced with the lights.
 
 ## TO-DO (in rough order of priority):
 
-- [ ] Split code modules into seperate files
+- [ ] Split code modules into seperate files & Identify easy improvements to task management
 - [ ] Fix user io/text buffering
 - [ ] Add sensors
 - [ ] Add pump control
