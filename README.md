@@ -6,7 +6,7 @@ I created this code in 2 days to fill an immediate need.
 
 The solution I had been using was not as easily expandible as I would have preferred so grabbed a spare ESP-32S NodeMCU I had and went to work.
 
-The main core handles the μC loop and the second core deals with lighting up the pins and timing everything.
+The main core handles the μC loop-logic and the second core deals with lighting up the pins and timing everything.
 
 Right now it is one giant file, but I am moving away from the μC that currently controls the propagation area lighting, pump, and sensors and will be expanding this to work on both ESP8266 μCs as well as the ESP-32S.
 
