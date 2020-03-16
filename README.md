@@ -4,11 +4,11 @@ ESP32s microcontroller code for high pressure aeroponics system [telnet control]
 
 I created this code in 2 days to fill an immediate need.
 
-The solution I had been using was not as easily expandible as I would have preferred so grabbed a spare ESP32s NodeMCU I had and went to work.
+The solution I had been using was not as easily expandible as I would have preferred so grabbed a spare ESP-32S NodeMCU I had and went to work.
 
 The main core handles the μC loop and the second core deals with lighting up the pins and timing everything.
 
-Right now it is one giant file, but I am moving away from the μC that currently controls the propagation area lighting, pump, and sensors and will be expanding this to work on both ESP8266 μCs as well as the ESP32.
+Right now it is one giant file, but I am moving away from the μC that currently controls the propagation area lighting, pump, and sensors and will be expanding this to work on both ESP8266 μCs as well as the ESP-32S.
 
 There are currently no plans to make a web interface.  I tried that on one ESP8266 linked with an AVR board and was not happy with the results.  Maybe it would work for something very simple, but telnet is even simpler.
 
