@@ -22,11 +22,13 @@ WiFiClient serverClient;
 static xTaskHandle timerHandle = 0;
 const static int taskCore = 1;
 
-const static int m1Pin = 16;
-const static int m2Pin = 17;
-const static int m3Pin = 18;
-const static int m4Pin = 19;
-const static int lightsPin = 4;
+const int m1Pin = 16;
+const  int m2Pin = 17;
+const  int m3Pin = 18;
+const  int m4Pin = 19;
+const  int m5Pin = 8
+const  int propLightsPin = 7
+const  int lightsPin = 4;
 
 typedef struct Timers_t {
   int lightsOnHour = 17;
@@ -38,27 +40,28 @@ typedef struct Timers_t {
   bool mister2Active = false;
   bool mister3Active = true;
   bool mister4Active = true;
-  bool isDay = false;
+  bool mister5Active = true;
 
   int dayMisterInterval = 50;
   int dayMisterDuration = 800;
   int nightMisterInterval = 125;
   int nightMisterDuration = 800;
+
 } GenericTimers_t;
 
-static GenericTimers_t gTimers;
+GenericTimers_t gTimers;
 
-static char lightsOnHour_s[3] = "17";
-static char lightsOnMinute_s[3] = "00";
-static char lightsOffHour_s[3] = "12";
-static char lightsOffMinute_s[3] = "00";
+char lightsOnHour_s[3] = "17";
+char lightsOnMinute_s[3] = "00";
+char lightsOffHour_s[3] = "12";
+char lightsOffMinute_s[3] = "00";
 
-static char dayMisterInterval_s[5] = "50";
-static char dayMisterDuration_s[5] = "800";
-static char nightMisterInterval_s[5] = "125";
-static char nightMisterDuration_s[5] = "800";
+char dayMisterInterval_s[5] = "50";
+char dayMisterDuration_s[5] = "800";
+char nightMisterInterval_s[5] = "125";
+char nightMisterDuration_s[5] = "800";
 
 //static bool sunChanged = false;
 
-static char cmd[] = "x";
-static char tIn[] = "xxxx";
+char cmd[] = "x";
+char tIn[] = "xxxx";
