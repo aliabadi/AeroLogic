@@ -61,7 +61,5 @@ char dayMisterDuration_s[5] = "800";
 char nightMisterInterval_s[5] = "125";
 char nightMisterDuration_s[5] = "800";
 
-//static bool sunChanged = false;
-
 char cmd[] = "x";
 char tIn[] = "xxxx";
