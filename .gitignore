@@ -1,7 +1,7 @@
 # Network configuration
 
-networkconfig.h
-AeroLogic/networkconfig.h
+AeroConfig.h
+AeroLogic/AeroConfig.h
 
 # Prerequisites
 *.d
