@@ -6,5 +6,9 @@ jobs:
   ubuntu_latest_tag:
     runs-on: [self-hosted]
     steps:
-    - name: Download Repo Files
-      run: echo ::set-env name=TAG::${GITHUB_REF#refs/tags/}
+    - name: Fetch repo changes
+      run: git fetch
+      working-directory: $HOME/AeroLogic
+    - name: Pull repo changes
+      run: git pull
+      working-directory: $HOME/AeroLogic
