@@ -18,7 +18,9 @@ Mister spray times/intervals stay synced with the lights.
 
 ## TO-DO (in rough order of priority):
 
-- [ ] Split code modules into seperate files & Identify easy improvements to task management
+- [X] Split code modules into seperate files & Identify easy improvements to task management
+- [X] Obtain additional ESP32 boards for further development & testing
+- [ ] Investigate Github CI & Google Pigweed for further development
 - [ ] Fix user io/text buffering
 - [ ] Add sensors
 - [ ] Add pump control
