@@ -1,0 +1,10 @@
+name: Github runner for Pigweed CI
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  ubuntu_latest_tag:
+    runs-on: [self-hosted, linux, ARM64]
+    steps:
+    - name: Download Repo Files
+      echo: ::set-env name=TAG::${GITHUB_REF#refs/tags/}
