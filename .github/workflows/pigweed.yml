@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   ubuntu_latest_tag:
-    runs-on: [self-hosted, linux, ARM64]
+    runs-on: [self-hosted]
     steps:
     - name: Download Repo Files
       run: echo ::set-env name=TAG::${GITHUB_REF#refs/tags/}
