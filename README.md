@@ -1,4 +1,4 @@
-![Github runner for Pigweed CI](https://github.com/aliabadi/AeroLogic/workflows/Github%20runner%20for%20Pigweed%20CI/badge.svg)
+![Github runner for Pigweed CI](https://github.com/aliabadi/AeroLogic/workflows/Github%20runner%20for%20Pigweed%20CI/badge.svg?branch=master)
 
 # AeroLogic Garden μC
 
