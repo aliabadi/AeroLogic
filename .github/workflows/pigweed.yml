@@ -7,8 +7,8 @@ jobs:
     runs-on: [self-hosted]
     steps:
     - name: Fetch repo changes
-      run: git fetch
-      working-directory: $HOME/AeroLogic
+      run: /usr/bin/git fetch
+      working-directory: /home/nick/AeroLogic
     - name: Pull repo changes
-      run: git pull
+      run: /usr/bin/git pull
       working-directory: $HOME/AeroLogic
