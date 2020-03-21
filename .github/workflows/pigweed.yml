@@ -11,4 +11,4 @@ jobs:
       working-directory: /home/nick/AeroLogic
     - name: Pull repo changes
       run: /usr/bin/git pull
-      working-directory: $HOME/AeroLogic
+      working-directory: /home/nick/AeroLogic
