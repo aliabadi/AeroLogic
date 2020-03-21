@@ -1,3 +1,5 @@
+![Github runner for Pigweed CI](https://github.com/aliabadi/AeroLogic/workflows/Github%20runner%20for%20Pigweed%20CI/badge.svg)
+
 # AeroLogic Garden μC
 
 ESP32s microcontroller code for high pressure aeroponics system [telnet control]
