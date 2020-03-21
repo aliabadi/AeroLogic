@@ -7,4 +7,4 @@ jobs:
     runs-on: [self-hosted, linux, ARM64]
     steps:
     - name: Download Repo Files
-      echo: ::set-env name=TAG::${GITHUB_REF#refs/tags/}
+      run: echo ::set-env name=TAG::${GITHUB_REF#refs/tags/}
